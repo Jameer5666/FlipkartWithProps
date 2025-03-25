@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px;
+}
+
+.titl {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    text-shadow: 2px 4px 2px black, 1px 3px 40px rgb(53, 5, 244), 0px 0px 62px rgb(4, 242, 254);
+}
+.titl::selection{
+    background-color: black;
+    text-shadow: 1px 3px 3px rgb(251, 250, 250), 2px 9px 40px blue, 2px 2px 62px green;
+}
